@@ -1,0 +1,23 @@
+{
+  "name": "deployment-pgame",
+  "version": "1.0.0",
+  "description": "This repository has server that will wait for any push in main repository and deploy it on live as soon as possible. Here is the main repository of P-Game: [Main Repository](https://github.com/Nycrera/p-game)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nycrera/Deployment-pgame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nycrera/Deployment-pgame/issues"
+  },
+  "homepage": "https://github.com/Nycrera/Deployment-pgame#readme",
+  "dependencies": {
+    "github-webhook-handler": "^0.7.1",
+    "request": "^2.88.0"
+  }
+}
