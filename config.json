@@ -1,0 +1,12 @@
+{
+    "webHook": {
+        "port": 7777,
+        "path": "/webhook",
+        "secret": "somesecrethash"
+    },
+    "gameServer": {
+        "ip": "localhost",
+        "port": 7778
+    },
+    "killTime": 60000
+}
