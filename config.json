@@ -10,6 +10,7 @@
     },
     "killTime": 60000,
     "directory": {
+        "repository": "/home/p-game",
         "gameServer": "/home/pgameserver/",
         "webServer": "/var/www/html/"
     }
