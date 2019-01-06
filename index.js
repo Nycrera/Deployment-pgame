@@ -34,7 +34,12 @@ handler.on("push", function (event) {
     CONFIG.gameServer.port,
     CONFIG.killTime,
     () => {
-      // TODO: Server Killed now. Lets's move files and run new game server 
+      const git = require('simple-git')(CONFIG.directory.gameServer);
+      git.fetch(() => {
+        git.pull(() => {
+          //exec('nohup python3 '+CONFIG.directory.gameServer+'main.py'); TODO: IS this actually works test pls ?
+        });
+      });
     }
   ); // after kill time passes game server will be killed forcefully.
   console.log(
