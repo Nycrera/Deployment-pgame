@@ -8,5 +8,9 @@
         "ip": "localhost",
         "port": 7778
     },
-    "killTime": 60000
+    "killTime": 60000,
+    "directory": {
+        "gameServer": "/home/pgameserver/",
+        "webServer": "/var/www/html/"
+    }
 }
